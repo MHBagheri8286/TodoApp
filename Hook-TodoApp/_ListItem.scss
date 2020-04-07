@@ -1,0 +1,22 @@
+.todo-listItem {
+    margin-bottom: 5px;
+    list-style-type: none;
+    border: 1px solid #afafaf;
+    height: 25px;
+    border-radius: 3px;
+}
+.todo-listItem span{
+    line-height: 25px;
+    padding-left: 5px;
+}
+li button{
+    float: right;
+    background: transparent;
+    border: none;
+}
+ul{
+    padding: 0;
+}
+.todo-complete{
+    background-color: #c1c1c1;
+}

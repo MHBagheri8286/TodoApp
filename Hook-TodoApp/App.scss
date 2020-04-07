@@ -1,0 +1,22 @@
+@import 'TodoForm';
+@import 'TodoFilter';
+@import 'ListItem';
+
+$myMaxWidth: 450px;
+$myMinWidth: 240px;
+
+body{
+    max-width: $myMaxWidth;
+    min-width: $myMinWidth;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+button{    
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+}

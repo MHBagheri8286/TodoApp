@@ -1,0 +1,13 @@
+.todo-filter{
+    background-color: #bdbdbd;
+    border: 1px solid #aaaaaa;
+}
+div > button{
+    width: 80px;
+    height: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}

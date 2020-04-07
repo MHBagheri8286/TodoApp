@@ -1,0 +1,9 @@
+#root{
+    max-width: 450px;
+    min-width: 240px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}

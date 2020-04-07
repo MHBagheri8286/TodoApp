@@ -1,0 +1,16 @@
+form{
+    display: flex;
+    margin-bottom: 15px;
+}
+form input{
+    width: 100%;
+}
+form input:focus{
+    outline: none;
+}
+form button{
+    float: right;
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+}
