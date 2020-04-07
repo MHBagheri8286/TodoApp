@@ -1,0 +1,91 @@
+#root {
+    max-width: 500px;
+    min-width: 240px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {   
+    border: 1px solid #c1c1c1;
+    margin-bottom: 1px;
+    height: 25px;
+}
+
+li button {
+    cursor: pointer;
+    float: right;
+    height: 25px;
+    width: 70px;
+    background: transparent;
+    border: none;
+}
+
+.todo-completed {
+    background: #b3b3b3;
+}
+
+.todo-filter {
+    background-color: #cccccc;
+    border: 1px solid #aaaaaa;
+}
+
+.todo-title {
+    line-height: 25px;
+    padding-left: 5px;
+}
+
+#container {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#todoForm {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 4px;
+}
+
+#todoForm input {
+    flex-grow: 1;
+    margin-right: 4px;
+}
+
+#todoForm input:focus {
+    outline: none;
+}
+ 
+#todoForm button, #todoUpDown button {
+    cursor: pointer;
+    width: 75px;
+    height: 25px;
+}
+
+#todoForm button:hover, #todoUpDown button:hover {
+    background-color: #cccccc;
+    border: 1px solid #aaaaaa;
+}
+
+#todoFilter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todoFilter button {
+    cursor: pointer;
+    width: 85px;
+    margin-right: 4px;
+    height: 25px;
+}
+
+#todoFilter button:focus {
+    outline: none;
+}

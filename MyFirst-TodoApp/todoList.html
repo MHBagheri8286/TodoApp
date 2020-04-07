@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="todoStyleSheet.css">
+
+</head>
+
+<body class="container">
+
+    <div class="parent">
+        <h1 id="header">Todo App</h1>
+        <div id="myTodo" class="main">
+            <div id="myDIV" class="header">
+
+                <input type="text" id="myInput" placeholder="Create Some Tasks ..." spellcheck="false" autocomplete="off">
+                <span id="btnAdd" onclick="newElement()" class="insertBtn">+</span>
+
+            </div>
+
+
+            <div id="btnTaskBar" class="btnContainer">
+                <div id="btnAll" onclick="allList(this)" class="button">All Tasks : <span id='countAll'></span></div>
+                <div id="btnActive" onclick="activeList(this)" class="button">Incomplete : <span id='countActive'></span></div>
+                <div id="btnComplete" onclick="completeList(this)" class="button">Complete : <span id='countComplete'></span></div>
+            </div>
+
+            <ul id="myUL">
+            </ul>
+            <div id="btnRemove" onclick="removeUL()">
+                <div class=" fas fa-trash"></div>
+
+                <span class="clearSpan">Clear All</span>
+
+            </div>
+
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <h4>Are you sure to remove?</h4>
+                <div id="myBtn" class="modalContainer">
+                    <div style="margin-right: 8px;" id="btnYes">Yes</div>
+                    <div style="background-color: #ff0058;" id="btnNo">No</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="snackbar" class="alertSnackbar">
+        <div id="timesCircle" class=" far fa-times-circle"></div>
+        <span id="snackbarTitle" class="snackbarSpan"></span>
+    </div>
+    <div id="back1" class="firstBackground"></div>
+    <div id="back2" class="secondBackground"></div>
+</body>
+
+<script src="todoJavaScript.js">
+</script>
+<script src="https://kit.fontawesome.com/5ce648dfc6.js"></script>
+
+</html>
